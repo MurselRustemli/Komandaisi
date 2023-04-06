@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+main #aboutebusiness {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 70%;
+  background-color: #f9f9f9;
+}
+main #aboutebusiness .yuxari {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #aboutebusiness .yuxari h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #444444;
+}
+main #aboutebusiness .yuxari div {
+  margin-top: 10px;
+  width: 200px;
+  background-color: #444444;
+  height: 3px;
+  border-radius: 8px;
+}
+main #aboutebusiness .sagsol {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  max-width: 80%;
+  gap: 20px;
+}
+main #aboutebusiness .sagsol .sol {
+  max-width: 100%;
+}
+main #aboutebusiness .sagsol .sol img {
+  max-width: 100%;
+  height: auto;
+}
+main #aboutebusiness .sagsol .sag {
+  max-width: 100%;
+}
+main #aboutebusiness .sagsol .sag h1 {
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #444444;
+}
+main #aboutebusiness .sagsol .sag p {
+  margin-top: 15px;
+  font-family: sans-serif;
+  color: #4a525c;
+}
+main #aboutebusiness .sagsol .sag .yazi {
+  margin-top: 30px;
+}
+main #aboutebusiness .sagsol .sag .yazi P {
+  font-family: sans-serif;
+  color: #4a525c;
+}
+main #aboutebusiness .sagsol .sag .yazi P i {
+  color: #5bcadb;
+}
+
+@media screen and (max-width: 570px) {
+  #aboutebusiness .sagsol {
+    flex-direction: column;
+  }
+  #aboutebusiness .sagsol .sol {
+    background-color: #444444;
+    width: 100%;
+  }
+  #aboutebusiness .sagsol .sag {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
